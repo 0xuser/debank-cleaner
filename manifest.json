@@ -1,0 +1,13 @@
+{
+  "name": "DeBank Cleaner",
+  "action": {
+    "default_icon": "favicon.png"
+  },
+  "manifest_version": 3,
+  "version": "1.0",
+  "description": "Cleans DeBank's transactions history from junk & scam transactions",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
